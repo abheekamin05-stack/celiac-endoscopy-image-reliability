@@ -1,6 +1,6 @@
 # Reliability-Aware Review Prioritization for Celiac Endoscopy Images
 
-This student-led, exploratory project evaluates whether simple image-reliability signals can help prioritize review of a particularly consequential classifier error: an endoscopy image supplied with a Celiac label that a model predicts as Normal.
+This exploratory project evaluates whether simple image-reliability signals can help prioritize review of a particularly consequential classifier error: an endoscopy image supplied with a Celiac label that a model predicts as Normal.
 
 It is **not** a diagnostic system, clinical validation study, or patient-level analysis. The public image archive has no patient identifiers, pathology confirmation, device metadata, or clinical outcomes.
 
