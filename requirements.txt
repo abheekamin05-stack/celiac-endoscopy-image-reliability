@@ -1,0 +1,12 @@
+numpy
+pandas
+Pillow
+scikit-learn
+torch
+torchvision
+opencv-python
+matplotlib
+scipy
+pypdf
+reportlab
+py7zr

@@ -1,0 +1,31 @@
+{
+  "analysis_population": {
+    "canonical_images": 159,
+    "supplied_normal": 84,
+    "supplied_celiac": 75,
+    "predicted_normal_candidates": 90,
+    "supplied_celiac_false_normals": 16
+  },
+  "classifier": {
+    "correct_normal": 74,
+    "normal_to_celiac": 10,
+    "correct_celiac": 59,
+    "celiac_to_normal": 16,
+    "accuracy": 0.8364779874,
+    "celiac_sensitivity": 0.7866666667,
+    "normal_specificity": 0.8809523810
+  },
+  "review_priority_comparison": [
+    {"review_rate": 0.10, "reviewed_images": 9, "confidence_only": 4, "combined": 4, "combined_minus_confidence": 0},
+    {"review_rate": 0.20, "reviewed_images": 18, "confidence_only": 6, "combined": 4, "combined_minus_confidence": -2},
+    {"review_rate": 0.30, "reviewed_images": 27, "confidence_only": 9, "combined": 7, "combined_minus_confidence": -2}
+  ],
+  "primary_uncertainty": {
+    "method": "conditional group-resampled bootstrap",
+    "replicates": 2000,
+    "seed": 20260920,
+    "point_difference": -2,
+    "ci_95": [-6, 1]
+  },
+  "interpretation": "The fixed equal-weight combination of weak Normal confidence, prediction instability, and technical-quality proxies did not improve false-normal review prioritization over confidence alone in the prespecified primary analysis."
+}
