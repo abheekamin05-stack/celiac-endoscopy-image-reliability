@@ -20,11 +20,11 @@ An ImageNet-pretrained ResNet-18 was trained in five group-disjoint folds, produ
 
 | Held-out classifier result | Count |
 | --- | ---: |
-| Correct Normal predictions | 74 / 84 |
-| Correct Celiac predictions | 59 / 75 |
-| Accuracy | 133 / 159 (83.6%) |
-| Celiac sensitivity | 59 / 75 (78.7%) |
-| Normal specificity | 74 / 84 (88.1%) |
+| Correct Normal predictions | 60 / 84 |
+| Correct Celiac predictions | 62 / 75 |
+| Accuracy | 122 / 159 (76.7%) |
+| Celiac sensitivity | 62 / 75 (82.7%) |
+| Normal specificity | 60 / 84 (71.4%) |
 
 Among 90 images predicted Normal, 16 had a supplied Celiac label. At review rates of 10%, 20%, and 30%, confidence-only prioritization identified **4, 6, and 9** of those 16 images; the equal-weight combined score identified **4, 4, and 7**. At the prespecified 20% review rate, the combined score was therefore 2 cases worse than confidence alone. A group-resampled bootstrap (2,000 replicates) gave a 95% interval of **[-6, +1]** for this paired difference.
 
